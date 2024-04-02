@@ -1,18 +1,57 @@
 {
-  "name": "@utilcode/simple-template-advanced",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
+  "name": "@supernpm2024/officia-eum-pariatur-temporibus",
+  "description": "CSSStyleDeclaration implementation",
+  "author": "ellentea",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/utilcode/simple-template.git"
+  "keywords": [
+    "CSS",
+    "CSSStyleDeclaration"
+  ],
+  "version": "1.0.0",
+  "engines": {
+    "node": ">= 16"
+  },
+  "directories": {
+    "lib": "./lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib",
+    "index.js",
+    "webidl2js-wrapper.js"
+  ],
+  "exports": {
+    ".": "./index.js"
   },
   "dependencies": {
-    "axios": "^1.6.8"
-  }
+    "@supernpm2024/legendary-broccoli": "^1.0.0",
+    "@supernpm2024/tenetur-tempore-ex-illo": "^1.0.0",
+    "cssom": "^0.4.4",
+    "webidl-conversions": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/eslint-parser": "^7.14.7",
+    "@babel/preset-env": "^7.14.5",
+    "@cdoublev/eslint-config": "^0.8.2",
+    "eslint": "^7.28.0",
+    "eslint-plugin-jest": "24.3.6",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^27.0.4",
+    "jest-junit": "^12.1.0",
+    "npm-run-all": "^4.1.5",
+    "webidl2js": "^16.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supernpm2024/officia-eum-pariatur-temporibus.git"
+  },
+  "homepage": "https://github.com/supernpm2024/officia-eum-pariatur-temporibus/#readme",
+  "bugs": {
+    "url": "https://github.com/supernpm2024/officia-eum-pariatur-temporibus/issues"
+  },
+  "packageManager": "yarn@4.1.1"
 }
